@@ -1,0 +1,351 @@
+@font-face {
+    font-family:'PlayfairDisplay-ExtraBoldItalic' ;
+    src: url(../static/PlayfairDisplay-ExtraBoldItalic.ttf);
+}
+@font-face {
+    font-family:'PlayfairDisplay-Italic' ;
+    src: url(../static/PlayfairDisplay-Italic.ttf);
+}
+@font-face {
+    font-family:'PlayfairDisplay-SemiBoldItalic' ;
+    src: url(../static/PlayfairDisplay-SemiBoldItalic.ttf);
+}
+@font-face {
+    font-family:'PlayfairDisplay-BlackItalic' ;
+    src: url(../static/PlayfairDisplay-BlackItalic.ttf);
+}
+@font-face {
+    font-family:'PlayfairDisplay-Regular' ;
+    src: url(../static/PlayfairDisplay-Regular.ttf);
+}
+@font-face {
+    font-family:'PlayfairDisplay-Black' ;
+    src: url(../static/PlayfairDisplay-Black.ttf);
+}
+@font-face {
+    font-family:'PlayfairDisplay-Bold' ;
+    src: url(../static/PlayfairDisplay-Bold.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+body{
+    background-color: rgb(230, 230, 230);
+}
+.unsub{
+    text-align: center;
+    color: gray;
+}
+.unsub h6{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.unsub a{
+    color: gray;
+}
+.first{
+    background-color: #fff;
+    width: 60%;
+    margin: auto;
+    padding: 50px 53px;
+    margin-bottom: 18px;
+    position: relative;
+}
+.totop{
+    display: none;
+}
+.totopicon{
+    position: fixed;
+    top: 85%;
+    z-index: 1;
+    right:43px;
+    color: #d50000 !important;
+    font-size: 55px;
+    cursor: pointer;
+}
+.first p{
+    font-size: 26px;
+    padding-bottom: 50px;
+}
+.first .watchs{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.first .watchs .watch {
+    text-align: center;
+}
+.first .watchs .watch img{
+    margin-bottom: 13px;
+}
+.first .watchs .watch span.num{
+    font-family:'PlayfairDisplay-Italic' ;
+    font-size: 18px;
+    margin: 0px 3px;
+}
+.first .details {
+    width: 29%;
+    text-align: center;
+    margin: 32px auto;
+}
+.first .details img {
+    margin-bottom: 18px;
+}
+.first .details del{
+    font-family:'PlayfairDisplay-Italic' ;
+    font-size: 18px;
+}
+.first .details h1{
+    font-family:'PlayfairDisplay-Regular' ;
+    font-size: 55px;
+    font-weight: 600;
+    margin-bottom: 29px;
+}
+.first .details a{
+    color: #fff;
+    background-color: #d50000;
+    font-family: 'PlayfairDisplay-Bold';
+    text-decoration: none;
+    padding: 13px 38px;
+    transition: 0.5s;
+    font-size: 25px;
+}
+.first .details a:hover{
+    background-color: #39363a;
+}
+.first .details h5 {
+    margin-top: 29px;
+}
+.first .details h5 span{
+    font-family:'PlayfairDisplay-Italic' ;
+    font-size: 22px;
+}
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.bottom .one{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-evenly;
+}
+.bottom .one h5{
+    font-weight: 600;
+    color: #39363a;
+}
+.bottom .one h6{
+    color: #d50000;
+    font-size: 18px;
+}
+.bottom .one span{
+    font-family:'PlayfairDisplay-Italic' ;
+    margin: 0px 3px;
+}
+.second{
+    background-color: #fff;
+    width: 60%;
+    margin: auto;
+    padding: 50px 53px;
+    margin-bottom: 18px;
+}
+.second p{
+    font-size: 26px;
+    padding-bottom: 50px;
+}
+.smartw {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.smartw .smart{
+    text-align: center;
+}
+.second .smartw .smart img{
+    margin-bottom: 13px;
+}
+.second .details {
+    width: 29%;
+    text-align: center;
+    margin: 32px auto;
+}
+.second .details img {
+    margin-bottom: 18px;
+}
+.second .details del{
+    font-family:'PlayfairDisplay-Italic' ;
+    font-size: 18px;
+}
+.second .details .h1{
+    font-family:'PlayfairDisplay-Regular' ;
+    font-size: 55px;
+    font-weight: 600;
+    margin-bottom: 29px;
+}
+.second .details a{
+    color: #fff;
+    background-color: #d50000;
+    font-family: 'PlayfairDisplay-Bold';
+    text-decoration: none;
+    padding: 13px 38px;
+    transition: 0.5s;
+    font-size: 25px;
+}
+.second .details a:hover{
+    background-color: #39363a;
+}
+.second .details h5 {
+    margin-top: 29px;
+}
+.second .details h5 span{
+    font-family:'PlayfairDisplay-Italic' ;
+    font-size: 22px;
+}
+.third{
+    background-color: #fff;
+    width: 60%;
+    margin: auto;
+    padding: 50px 53px;
+    margin-bottom: 38px;
+}
+.third h2 {
+    text-align: center;
+    font-family:'PlayfairDisplay-Bold' ;
+    font-size: 38px;
+}
+.third .more{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 25px 0px;
+}
+.third .more .product{
+    width: 32%;
+}
+.third .more .product img {
+    margin-bottom: 13px;
+}
+.third .more .product .price{
+    margin-bottom: 20px;
+}
+.third .more .product span{
+    font-family:'PlayfairDisplay-ExtraBoldItalic' ;
+    font-size: 26px;
+    margin-right: 10px;
+}
+.third .more .product del{
+    font-family:'PlayfairDisplay-Italic' ;
+    font-size: 19px;
+}
+.third .more .product a{
+    color: #fff;
+    background-color: #d50000;
+    font-family: 'PlayfairDisplay-Bold';
+    text-decoration: none;
+    padding: 11px 32px;
+    transition: 0.5s;
+    font-size: 23px;
+}
+.third .more .product a:hover{
+    background-color: #39363a;
+}
+.footer{
+    width: 50%;
+    margin: auto;
+}
+.footer .content h3{
+    color: #666666;
+    font-family: 'PlayfairDisplay-Bold';
+    font-size: 22px;
+}
+.footer .content p{
+    color: #666666;
+}
+.footer .content ul{
+    padding-left: 0px;
+}
+.footer .content ul li{
+display: inline;
+}
+.footer .content ul li a{
+    margin-right: 18px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #666666;
+}
+.footer .content .listimage img {
+    margin-right: 20px;
+    margin-bottom: 18px;
+    margin-top: 18px;
+}
+.footer .content h6{
+    color: #666666;
+    font-size: 13px;
+    font-family: 'PlayfairDisplay-Bold';
+    margin-bottom: 130px;
+}
+@media only screen and (max-width: 1200px) {
+    .first .watchs {
+        flex-direction: column;
+    }
+    .first .details {
+        width: 100%;
+    }
+    .smartw {
+        flex-direction: column;
+    }
+    .second .details {
+        width: 100%;
+    }
+    .third .more {
+        flex-direction: column;
+    }
+    .third .more .product {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 46px;    
+    }
+    .first {
+        padding: 50px 32px;
+    }
+    .second {
+        padding: 50px 32px;
+    }
+    .second .smartw .smart img.smw {
+        width: 100%;
+        margin-bottom: 13px;
+    }
+    .first .watchs .watch img.fw {
+        margin-bottom: 13px;
+        width: 100%;
+    }
+    .footer .content ul li {
+        display: block;
+    }
+    .first {
+        width: 76%;
+    }
+    .second{
+        width: 76%;
+    }
+    .third{
+        width: 76%;
+    }
+    .footer {
+        width: 58%;
+        font-size: 18px;
+    }
+    .footer .content h6 {
+        font-size: 14px;
+    }
+    .totopicon{
+        font-size: 45px;
+        top: 86%;
+        right: 18px;
+    }
+}
